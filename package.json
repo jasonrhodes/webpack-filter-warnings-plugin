@@ -1,7 +1,7 @@
 {
-  "name": "webpack-filter-warnings-plugin",
+  "name": "@rhodesjason/webpack-filter-warnings-plugin",
   "version": "1.2.1",
-  "description": "Allows you to hide certain warnings from webpack compilations",
+  "description": "Allows you to hide certain warnings from webpack compilations (forked from mattlewis92's abandoned package)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mattlewis92/webpack-filter-warnings-plugin.git"
+    "url": "git+https://github.com/jasonrhodes/webpack-filter-warnings-plugin.git"
   },
   "keywords": [
     "webpack plugin"
@@ -36,9 +36,9 @@
   "author": "Matt Lewis",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mattlewis92/webpack-filter-warnings-plugin/issues"
+    "url": "https://github.com/jasonrhodes/webpack-filter-warnings-plugin/issues"
   },
-  "homepage": "https://github.com/mattlewis92/webpack-filter-warnings-plugin#readme",
+  "homepage": "https://github.com/jasonrhodes/webpack-filter-warnings-plugin#readme",
   "files": [
     "dist"
   ],
@@ -46,7 +46,7 @@
     "node": ">= 8.0"
   },
   "peerDependencies": {
-    "webpack": ">= 4.0.0"
+    "webpack": ">= 5.0.0"
   },
   "pre-commit": "lint-staged",
   "lint-staged": {
@@ -63,17 +63,17 @@
     "@types/jest": "^23.3.14",
     "@types/memory-fs": "^0.3.2",
     "@types/webpack": "^4.4.25",
-    "del-cli": "^1.1.0",
-    "jest": "^24.5.0",
-    "lint-staged": "^8.1.5",
+    "del-cli": "^5.0.0",
+    "jest": "^29.5.0",
+    "lint-staged": "^13.2.2",
     "memory-fs": "^0.4.1",
     "pre-commit": "^1.2.2",
-    "standard-version": "^5.0.1",
-    "ts-jest": "^24.0.0",
-    "ts-node": "^8.0.3",
+    "standard-version": "^9.5.0",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1",
     "tslint": "^5.14.0",
     "tslint-config-prettier": "^1.18.0",
-    "typescript": "^3.3.3333",
-    "webpack": "^4.29.6"
+    "typescript": "^5.0.4",
+    "webpack": "^5.0.0"
   }
 }
